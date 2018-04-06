@@ -16,15 +16,7 @@ const particlesOptions = {
 				blur: 5
 			}
 		},
-		detect_on: "canvas",
-	    events: {
-	      onhover: {
-	        enable: true,
-	        mode: "repulse"
-	      },
-	      "resize": true
-	    },
-		nuber:{
+		number:{
 			value:30,
 			density:{
 				enable:true,
