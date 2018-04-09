@@ -2,8 +2,10 @@
   "name": "react-face-detection-application",
   "version": "0.1.0",
   "private": true,
+  "homepage":"https://karthikpoojary.github.io/react-face-detection-application/",
   "dependencies": {
     "clarifai": "^2.6.0",
+    "gh-pages": "^1.1.0",
     "react": "^16.3.0",
     "react-dom": "^16.3.0",
     "react-particles-js": "^2.1.2",
@@ -14,6 +16,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
+    "predeploy": "npm run build",
+    "deploy":"gh-pages -d build",
     "eject": "react-scripts eject"
   },
   "devDependencies": {
